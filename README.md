@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>이주의 문제</td>
-    <td><a href=""><b>[이주의 문제]</b></td>
+    <td><a href="https://github.com/KB-JavaCodingTestStudy/KB-JavaCodingTestStudy/discussions/2"><b>[이주의 문제]</b></td>
   </tr>
   <tr>
     <td>언어</td>
