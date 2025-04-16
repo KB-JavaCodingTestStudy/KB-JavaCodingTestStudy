@@ -1,5 +1,34 @@
 # 🧠 Java 알고리즘 & 코딩테스트 스터디
 
+<table>
+  <tr>
+    <td>진행 기간</td>
+    <td>2025년 4월 ~ ing </td>
+  </tr>
+  <tr>
+    <td>스터디 장소</td>
+    <td>13회차 교실</td>
+  </tr>
+  <tr>
+    <td>정기 스터디 시간</td>
+    <td>목요일 18:00 ~ 20:00 [2h] </a></td>
+  </tr>
+  <tr>
+    <td>플랫폼</td>
+    <td>백준, 프로그래머스</td>
+  </tr>
+  <tr>
+    <td>이주의 문제</td>
+    <td><a href=""><b>[이주의 문제]</b></td>
+  </tr>
+  <tr>
+    <td>언어</td>
+    <td>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=java&logoColor=white">
+    </td>
+  </tr>
+</table>
+
 **자바 알고리즘 및 코딩테스트 문제 풀이 스터디**
 > `Java`, `백준`, `프로그래머스` 기반으로 기초부터 실전까지 탄탄하게 다지는 스터디입니다.
 
