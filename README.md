@@ -1,34 +1,5 @@
 # 🧠 Java 알고리즘 & 코딩테스트 스터디
 
-<table>
-  <tr>
-    <td>진행 기간</td>
-    <td>2025년 4월 ~ ing </td>
-  </tr>
-  <tr>
-    <td>스터디 장소</td>
-    <td>13회차 교실</td>
-  </tr>
-  <tr>
-    <td>정기 스터디 시간</td>
-    <td>목요일 18:00 ~ 20:00 [2h] </a></td>
-  </tr>
-  <tr>
-    <td>플랫폼</td>
-    <td>백준, 프로그래머스</td>
-  </tr>
-  <tr>
-    <td>이주의 문제</td>
-    <td><a href="https://github.com/KB-JavaCodingTestStudy/KB-JavaCodingTestStudy/discussions/2"><b>[이주의 문제]</b></td>
-  </tr>
-  <tr>
-    <td>언어</td>
-    <td>
-      Java
-    </td>
-  </tr>
-</table>
-
 **자바 알고리즘 및 코딩테스트 문제 풀이 스터디**
 > `Java`, `백준`, `프로그래머스` 기반으로 기초부터 실전까지 탄탄하게 다지는 스터디입니다.
 
@@ -53,6 +24,7 @@
 | 📍 스터디 장소   | 멀티캠퍼스 세종대 13회차                                                                         |
 | ⏰ 정기 스터디 시간 | 매주 **목요일 18:00 ~ 20:00**                                                               |
 | 🧑‍💻 플랫폼   | [백준](https://www.acmicpc.net/) / [프로그래머스](https://programmers.co.kr/)                  |
+| 😎 이주의 문제   | [<b>이주의 문제</b>](https://github.com/KB-JavaCodingTestStudy/KB-JavaCodingTestStudy/discussions/2)     |
 | 🛠 사용 언어    | ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white) |
 
 ---
