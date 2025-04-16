@@ -12,7 +12,7 @@ public class Roa {
         }
 
         int count=1;
-        int max=sticks[N-1]; //현재 가장 높은 막대기
+        int max=sticks[N-1]; // 현재 가장 높은 막대기
 
         // 오른쪽에서 왼쪽으로 탐색
         for(int i=N-2;i>=0;i--){
