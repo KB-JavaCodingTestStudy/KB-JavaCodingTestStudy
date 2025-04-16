@@ -23,6 +23,7 @@ public class Main {
                            sb.append(dwarf[k]+"\n");
                        }
                    }
+                    
                     System.out.println(sb);
                     return;
                 }
