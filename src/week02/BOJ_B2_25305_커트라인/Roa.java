@@ -1,3 +1,5 @@
+package week02.BOJ_B2_25305_커트라인;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;

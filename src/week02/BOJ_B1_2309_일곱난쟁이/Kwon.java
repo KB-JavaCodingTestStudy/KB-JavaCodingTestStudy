@@ -1,7 +1,9 @@
+package week02.BOJ_B1_2309_일곱난쟁이;
+
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Kwon {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int[] arr = new int[9];
