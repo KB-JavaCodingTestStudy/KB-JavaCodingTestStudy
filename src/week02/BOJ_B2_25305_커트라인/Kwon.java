@@ -1,3 +1,5 @@
+package week02.BOJ_B2_25305_커트라인;
+
 import java.util.*;
 import java.io.*;
 
