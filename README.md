@@ -24,7 +24,7 @@
 | 📍 스터디 장소   | 멀티캠퍼스 세종대 13회차                                                                         |
 | ⏰ 정기 스터디 시간 | 매주 **목요일 18:00 ~ 20:00**                                                               |
 | 🧑‍💻 플랫폼   | [백준](https://www.acmicpc.net/) / [프로그래머스](https://programmers.co.kr/)                  |
-| 😎 이주의 문제   | [<b>이주의 문제</b>](https://github.com/KB-JavaCodingTestStudy/KB-JavaCodingTestStudy/discussions/2)     |
+| 😎 이주의 문제   | [<b>이주의 문제</b>](https://github.com/KB-JavaCodingTestStudy/KB-JavaCodingTestStudy/discussions/21)     |
 | 🛠 사용 언어    | ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white) |
 
 ---
