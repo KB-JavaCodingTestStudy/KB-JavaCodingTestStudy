@@ -1,7 +1,7 @@
 package week03.BOJ_G3_10986_나머지합;
 
 import java.io.*;
-import java.util.*;
+import java.util.*; 
 
 public class MJ {
     public static void main(String[] args) throws IOException {
