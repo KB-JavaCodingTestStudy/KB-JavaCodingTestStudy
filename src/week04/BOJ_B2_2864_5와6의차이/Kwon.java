@@ -1,49 +1,21 @@
 import java.io.*;
-import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        String[] input = br.readLine().split(" ");
 
-        int minA;
-        int maxA;
-        int minB;
-        int maxB;
+        String A = input[0];
+        String B = input[1];
 
-        StringBuilder sb1 = new StringBuilder(st.nextToken());
-        for(int i = 0; i < sb1.length(); i++) {
-            if(sb1.charAt(i) == '6') {
-                sb1.setCharAt(i,'5');
-            }
-        }
-        minA = Integer.parseInt(sb1.toString());
+        // 최소값: 6을 5로
+        int minA = Integer.parseInt(A.replace('6', '5'));
+        int minB = Integer.parseInt(B.replace('6', '5'));
 
-        for(int i = 0; i < sb1.length(); i++) {
-            if(sb1.charAt(i) == '5') {
-                sb1.setCharAt(i,'6');
-            }
-        }
-        maxA = Integer.parseInt(sb1.toString());
+        // 최대값: 5를 6으로
+        int maxA = Integer.parseInt(A.replace('5', '6'));
+        int maxB = Integer.parseInt(B.replace('5', '6'));
 
-        StringBuilder sb2 = new StringBuilder(st.nextToken());
-        for(int i = 0; i < sb2.length(); i++) {
-            if(sb2.charAt(i) == '6') {
-                sb2.setCharAt(i,'5');
-            }
-        }
-        minB = Integer.parseInt(sb2.toString());
-
-        for(int i = 0; i < sb2.length(); i++) {
-            if(sb2.charAt(i) == '5') {
-                sb2.setCharAt(i,'6');
-            }
-        }
-        maxB = Integer.parseInt(sb2.toString());
-
-        System.out.print(minA+minB);
-        System.out.print(" ");
-        System.out.print(maxA+maxB);
-        
+        System.out.println((minA + minB) + " " + (maxA + maxB));
     }
 }
