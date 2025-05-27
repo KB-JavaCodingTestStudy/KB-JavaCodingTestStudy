@@ -4,6 +4,7 @@ class Solution {
     List<List<Integer>> arr = new ArrayList<>();
     boolean[] visited;
     int answer;
+    
     public int solution(int n, int[][] wires) {
         for(int i=0; i<=n; i++) {
             arr.add(new ArrayList<>());
