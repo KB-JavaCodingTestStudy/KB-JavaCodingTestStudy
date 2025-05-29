@@ -42,7 +42,7 @@ package KB.week05;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-class 보물지도 {
+class Roa {
     // 상, 하, 좌, 우
     static int[] dr = {1, -1, 0, 0};
     static int[] dc = {0, 0, -1, 1};
