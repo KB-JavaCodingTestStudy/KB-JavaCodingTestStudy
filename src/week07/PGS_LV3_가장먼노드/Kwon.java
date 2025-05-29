@@ -1,6 +1,13 @@
 import java.util.*;
-      //가장 멀리 떨어진 노드의 갯수
-        //그래프를 돌면서 노드,거리 해시맵에 저장? => 맵을 사용하지 않고 visited 배열에 1이나 true 대신 거리를 저장함 
+      // 1번 노드에서 가장 멀리 떨어진 노드의 갯수 구하기
+      //(노드번호, 경로 거리) 함께 관리
+      //visited에 거리를 저장
+      //Queue<int[]> queue 
+      //map 사용
+
+      //가장 먼 거리 계산
+      //경로 거리 == 가장 먼 거리인 노드 수 카운트
+      //그래프를 돌면서 노드,거리 해시맵에 저장? => 맵을 사용하지 않고 visited 배열에 1이나 true 대신 거리를 저장 가능
 class Solution {
     public int solution(int n, int[][] edge) {
         int[] visited = new int[n+1];
