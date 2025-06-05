@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static int[] parent;
+    static int[] parent; //union find 용 부모 배열
 
     // Find 연산
     static int find(int x) {
@@ -41,21 +41,22 @@ public class Main {
             edges[i][2] = Integer.parseInt(st.nextToken()); // weight
         }
 
-        // 가중치 기준 정렬
+        // 가중치 기준 오름차순 정렬
         Arrays.sort(edges, Comparator.comparingInt(o -> o[2]));
 
         int total = 0;
         int count = 0;
 
+        //정렬된 간선 리스트 순회하면서 최소 신장 트리 구성
         for (int i = 0; i < e; i++) {
             int from = edges[i][0];
             int to = edges[i][1];
             int weight = edges[i][2];
 
-            if (union(from, to)) {
-                total += weight;
-                count++;
-                if (count == v - 1) break;
+            if (union(from, to)) {  //사이클이 생기지 않으면
+                total += weight;    //간선 가중치 추가
+                count++;            //간선 수 추가
+                if (count == v - 1) break;  //간선이 정점-1 이면 모든 정점 연결 -> 완성
             }
         }
 
