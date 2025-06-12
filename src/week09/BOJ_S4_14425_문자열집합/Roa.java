@@ -66,6 +66,7 @@ public class Roa {
             root = new TrieNode();
         }
 
+        // 단어 삽입
         public void insert(String word) {
             TrieNode node = root;
             for (char ch : word.toCharArray()) {
@@ -78,6 +79,7 @@ public class Roa {
             node.isEnd = true;
         }
 
+        // 단어 검색
         public boolean search(String word) {
             TrieNode node = root;
             for (char ch : word.toCharArray()) {
@@ -90,6 +92,7 @@ public class Roa {
             return node.isEnd;
         }
 
+        // 접두사 검색
         public boolean startsWith(String prefix) {
             TrieNode node = root;
             for (char ch : prefix.toCharArray()) {
@@ -104,7 +107,7 @@ public class Roa {
     }
 
     static class TrieNode {
-        TrieNode[] children = new TrieNode[26];
-        boolean isEnd = false;
+        TrieNode[] children = new TrieNode[26]; // 노드의 자식 노드들을 저장
+        boolean isEnd = false; // 이 노드가 단어의 끝인지 저장
     }
 }
