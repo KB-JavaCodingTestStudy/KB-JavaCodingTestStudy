@@ -91,19 +91,6 @@ public class Roa {
             }
             return node.isEnd;
         }
-
-        // 접두사 검색
-        public boolean startsWith(String prefix) {
-            TrieNode node = root;
-            for (char ch : prefix.toCharArray()) {
-                int idx = ch - 'a';
-                if (node.children[idx] == null) {
-                    return false;
-                }
-                node = node.children[idx];
-            }
-            return true;
-        }
     }
 
     static class TrieNode {
