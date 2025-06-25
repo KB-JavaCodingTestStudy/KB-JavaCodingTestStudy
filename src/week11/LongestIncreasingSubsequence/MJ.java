@@ -1,4 +1,4 @@
-package week11.LongestCommonSubsequence;
+package week11.LongestIncreasingSubsequence;
 
 public class MJ {
     class Solution {
