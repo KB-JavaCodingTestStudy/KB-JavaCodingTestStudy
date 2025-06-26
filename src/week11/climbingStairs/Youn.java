@@ -9,7 +9,7 @@ class Solution {
         if(map.containsKey(cur)){
             return map.get(cur);
         }
-
+        
         if(cur >  goal){return 0;}
         if(cur == goal){return 1;}
 
