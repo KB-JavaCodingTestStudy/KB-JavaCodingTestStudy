@@ -1,6 +1,7 @@
 package week17.벽부수고이동하기2;
 //  Link: https://www.acmicpc.net/problem/14442
 
+ 
 import java.io.*;
 import java.util.ArrayDeque;
 import java.util.Arrays;
@@ -86,4 +87,4 @@ public class MJ {
         bw.write(result + "");
         bw.flush();
     }
-}
+ 
